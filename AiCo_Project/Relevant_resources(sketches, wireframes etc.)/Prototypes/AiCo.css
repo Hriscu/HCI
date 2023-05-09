@@ -1,0 +1,132 @@
+/* resetam stilurile implicite */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* stilizam elementele principale */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #4d4dff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  select,
+  input[type="number"],
+  input[type="text"],
+  button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  select:hover,
+  input[type="number"]:hover,
+  input[type="text"]:hover,
+  button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  select:focus,
+  input[type="number"]:focus,
+  input[type="text"]:focus,
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #4d4dff;
+  }
+  
+  button[type="submit"] {
+    background-color: #1a1aff;
+    color: #fff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0000b3;
+  }
+  
+  #bluetooth {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #connect-bluetooth {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #connect-bluetooth:hover {
+    background-color: #4d4dff;
+    color: #fff;
+  }
+  
+  #connect-bluetooth:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #4d4dff;
+  }
+  
+  /* dropdown list */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%234d4dff' d='M.2 1l1.8 2L.2 5z'/%3E%3C/svg%3E") no-repeat right center;
+    background-size: 10px;
+  }
+  
+  /* tooltip */
+  [data-tooltip] {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  [data-tooltip]:hover::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, -10px);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4d4dff;
+    color: #fff;
+    white-space: nowrap;
+  }
+  

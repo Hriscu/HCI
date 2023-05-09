@@ -1,0 +1,136 @@
+/* Setări globale */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  header, footer {
+    background-color: #0c2a5a;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* Secțiunea principală */
+  main {
+    margin: 1rem auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Secțiunea Scor */
+  #scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team h3 {
+    margin: 0;
+  }
+  
+  .team p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .team ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .team li {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  button {
+    background-color: #0c2a5a;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #0c2a5a;
+    border: 1px solid #0c2a5a;
+  }
+  
+  /* Secțiunea Setări */
+  #settings {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  select {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  /* Mesajul de alertă */
+  .alert {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  /* Butonul "Connect Bluetooth" */
+  #connect-bluetooth {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 1rem;
+  }
+  
+  #connect-bluetooth:hover {
+    background-color: #fff;
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+  }
+  

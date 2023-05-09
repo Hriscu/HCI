@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Airsoft App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AiCo.css">
+  </head>
+  <body>
+    <header>
+      <h1>Airsoft App</h1>
+    </header>
+    <main>
+      <h2>Team and game settings</h2>
+      <form>
+        <label for="language">Language:</label>
+        <select name="language" id="language">
+          <option value="en">English</option>
+          <option value="ro">Romanian</option>
+          <option value="fr">French</option>
+          <option value="es">Spanish</option>
+          <option value="de">German</option>
+          <option value="it">Italian</option>
+          <option value="pt">Portuguese</option>
+          <option value="ru">Russian</option>
+          <option value="zh">Chinese</option>
+          <option value="ja">Japanese</option>
+          <option value="ko">Korean</option>
+        </select>
+
+        <label for="team">Team:</label>
+        <input type="text" id="team" name="team">
+
+        <label for="game-type">Type of game:</label>
+        <select name="game-type" id="game-type">
+          <option value="deathmatch">Deathmatch</option>
+          <option value="capture-the-flag">Capture the Flag</option>
+          <option value="speedsoft">SpeedSoft</option>
+          <option value="domination">Domination</option>
+          <option value="one-on-one">1v1</option>
+        </select>
+
+        <label for="match-duration">Match duration (minutes):</label>
+        <input type="number" id="match-duration" name="match-duration" min="5" max="60" step="5">
+
+        <label for="match-score">Match score:</label>
+        <input type="number" id="match-score" name="match-score" min="10" max="100" step="10">
+
+        <button type="submit">Start Game</button>
+
+        <div id="bluetooth">
+          <button type="button" id="connect-bluetooth">Connect Bluetooth</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; Airsoft App 2023</p>
+    </footer>
+    <script src="bluetooth.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+The Human Computer Interaction design patterns applied in the given code are:
+
+Language selection via a drop-down menu, giving the user an easy way to choose their preferred language.
+Using a form to enter game details, allowing the user to easily enter information and control game details.
+Using tags to describe each element in the form, making it easier for the user to understand and navigate.
+Using number inputs for game duration and game score, ensuring a valid numeric value.
+Styling elements with contrasting colors to make these elements easier to identify and use.
+Using a button to submit the form, making the action of starting the game more explicit and easier to do.
+Using a non-invasive interaction method to connect to the Bluetooth device at the push of a button, allowing the user to control the interaction with the application.

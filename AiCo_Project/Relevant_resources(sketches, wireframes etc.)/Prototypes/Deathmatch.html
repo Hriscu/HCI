@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Airsoft App - Deathmatch</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Deathmatch.css">
+  </head>
+  <body>
+    <header>
+      <h1>Airsoft App - Deathmatch</h1>
+    </header>
+    <main>
+      <h2>Deathmatch</h2>
+      <div id="scoreboard">
+        <h2>Scoreboard</h2>
+        <div class="team">
+          <h3>Team 1</h3>
+          <p>Score: <span id="team1-score">0</span></p>
+          <ul id="team1-players">
+            <li>Player 1 - Gun 1</li>
+            <li>Player 2 - Gun 2</li>
+            <li>Player 3 - Gun 3</li>
+          </ul>
+          <button id="add-team1-point">Add Point</button>
+        </div>
+        <div class="team">
+            <h3>Team 2</h3>
+            <p>Score: <span id="team2-score">0</span></p>
+            <ul id="team2-players">
+              <li>Player 1 - Gun 1</li>
+              <li>Player 2 - Gun 2</li>
+              <li>Player 3 - Gun 3</li>
+            </ul>
+            <button id="add-team2-point">Add Point</button>
+        </div>
+    </main>
+    <footer>
+      <p>&copy; Airsoft App 2023</p>
+    </footer>
+    <script src="scoreTeams.js"></script>
+  </body>
+</html>
