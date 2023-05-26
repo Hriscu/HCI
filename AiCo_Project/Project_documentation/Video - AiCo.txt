@@ -8,5 +8,9 @@ Am folosit Constrast checker;
 am primit Score pentru partea de accessability
 Pentru asta am folosit Use Contrast Plugin pentru a testa toate combinatiile de test pe un background grup
 Acest lucru ajuta utilizatorii sa aiba acces la un mediu Readable, Understandable al aplicatiei si nu vor ranii ochii
+!!!Avem Use Contrast - Plugin din Figma
 
-Sectiune Home 
+Sectiune Home
+Avem Feather Icons - Plugin din Figma
+Avem Healthy link pentru Icons 
+Avem Iconhunt.site pentru Icons
