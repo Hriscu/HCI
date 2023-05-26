@@ -1,0 +1,12 @@
+Avem cele 4 personas in urma carora am contruit Storyboards, pe urma Userflows, urmat de Sitemaps, Sketching, Wireframes si Prototypes pentru diferite platforme (nu doar mobile) pentru a reliefa diferentele dintre ele
+
+Am folosit Typografhy scale 3:4, line spacing 1.25, Sans serif -> Roboto
+
+Am folosit Color scheme -> split-complementary
+3 culori -> red, blue, emerald green (60, 30, 10); pentru partea de text in principiu folosim culori de negru, gri; rosu ar putea fi headur-uri; blue ar putea fi butoane; emerald greed ar putea fi hyperlink-uri
+Am folosit Constrast checker; 
+am primit Score pentru partea de accessability
+Pentru asta am folosit Use Contrast Plugin pentru a testa toate combinatiile de test pe un background grup
+Acest lucru ajuta utilizatorii sa aiba acces la un mediu Readable, Understandable al aplicatiei si nu vor ranii ochii
+
+Sectiune Home 
